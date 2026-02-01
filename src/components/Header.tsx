@@ -18,12 +18,11 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-lg bg-gradient-hero flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">SC</span>
-            </div>
-            <span className="font-semibold text-foreground hidden sm:block">
-              Super Cool AC
-            </span>
+            <img
+              src="/supercool_logo.png"
+              alt="Super Cool AC Logo"
+              className="w-[8.5rem] h-10 object-contain"
+            />
           </a>
 
           {/* Desktop Navigation */}
