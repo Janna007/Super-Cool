@@ -10,10 +10,11 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">SC</span>
-              </div>
-              <span className="font-semibold text-lg">Super Cool AC</span>
+              <img
+                src="/supercool_logo.png"
+                alt="Super Cool AC Logo"
+                className="w-[8.5rem] h-10 object-contain"
+              />
             </div>
             <p className="text-background/70 text-sm leading-relaxed">
               Your trusted partner for all air conditioning needs. Quality service, guaranteed satisfaction.
