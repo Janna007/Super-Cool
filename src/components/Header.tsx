@@ -7,6 +7,8 @@ const navLinks = [
   { href: "#services", label: "Services" },
   { href: "#about", label: "About" },
   { href: "#contact", label: "Contact" },
+  { href: "#terms", label: "Terms" },
+  { href: "#privacy", label: "Privacy" },
 ];
 
 const Header = () => {
